@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					1F36A0451C5615B80029CF29 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 7Z2QV3RWN7;
+						DevelopmentTeam = 2484Z5XMVT;
 					};
 					1F36A0591C5615B80029CF29 = {
 						CreatedOnToolsVersion = 7.1;
@@ -398,10 +398,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaoding Wu (JZ7NJQ4SRK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ZeroDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeroDay.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroDay.www.gogozs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,10 +411,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaoding Wu (JZ7NJQ4SRK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ZeroDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeroDay.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroDay.www.gogozs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -485,6 +487,7 @@
 				1F36A0701C5615B80029CF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F36A0711C5615B80029CF29 /* Build configuration list for PBXNativeTarget "ZeroDayTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +496,7 @@
 				1F36A0731C5615B80029CF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F36A0741C5615B80029CF29 /* Build configuration list for PBXNativeTarget "ZeroDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				1F36A0761C5615B80029CF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
